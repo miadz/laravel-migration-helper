@@ -117,6 +117,10 @@ class MigrationHelper
                 $table = $modelName;
                 break;
 
+            case 'h':
+                $table = $modelName . 'es';
+                break;
+
             default:
                 $table = $modelName . 's';
         }
